@@ -1,0 +1,84 @@
+///
+/// Odoo Dark-Mode
+///
+///
+
+// = Colors
+// ============================================================================
+
+$o-white: #000 !default;
+$o-black: rgb(188, 187, 187) !default;
+
+// Dark mode
+$o-gray-100: #191c24 !default;
+$o-gray-200: #242733 !default;
+$o-gray-300: #3f4149 !default;
+$o-gray-400: #5f6167 !default;
+$o-gray-500: #797a80 !default;
+$o-gray-600: #94959a !default;
+$o-gray-700: #b0b0b4 !default;
+$o-gray-800: #cccccf !default;
+$o-gray-900: #c3c3c3 !default;
+
+$o-enterprise-color: #956ac8 !default;
+$o-brand-primary: rgb(2, 139, 126) !default;
+
+$o-success: rgb(27, 111, 46) !default;
+$o-info: rgb(89, 167, 185) !default;
+$o-warning: rgb(174, 85, 4) !default;
+$o-danger: rgb(164, 0, 21) !default;
+
+
+// = Text
+// ============================================================================
+
+$o-main-text-color: $o-gray-800 !default;
+$o-main-link-color: $o-brand-primary !default;
+$o-enterprise-color: $o-brand-odoo !default;
+$o-main-favorite-color: rgb(181, 154, 0) !default;
+$o-main-code-color: rgb(181, 88, 154) !default;
+
+
+// = Fine-tune contextual text colors.
+$o-theme-text-colors: (
+    "success": rgb(2, 164, 30),
+    "info": rgb(0, 130, 165),
+    "warning": rgb(178, 122, 0),
+    "danger": rgb(181, 55, 51),
+    "odoo": rgb(155, 117, 202),
+) !default;
+
+// = Webclient
+// ============================================================================
+$o-webclient-color-scheme: dark !default;
+$o-webclient-background-color: $o-gray-100 !default;
+$o-view-background-color: $o-gray-200 !default;
+
+// = Inputs
+$o-input-border-required: $o-black !default;
+
+// = Button Secondary
+$o-btn-secondary-bg: $o-view-background-color !default;
+$o-btn-secondary-hover-bg: $o-gray-100 !default;
+$o-btn-secondary-hover-border: $o-btn-secondary-hover-bg !default;
+
+
+// = Button Light
+$o-btn-light-bg: $o-gray-200 !default;
+$o-btn-light-background-hover: $o-gray-300 !default;
+
+
+// = Components
+// ============================================================================
+
+// = List-group
+$o-list-group-active-color: $o-gray-900 !default;
+$o-list-group-active-bg: rgba(saturate(adjust-hue($o-info, 15), 1.8), .5) !default;
+
+// = Navbar
+$o-navbar-bg: $o-gray-200 !default;
+$-backend-entry-hover-bg: $o-gray-100 !default; // <- TO DO: use a general variable rather than a scoped one
+
+// = Modal
+$modal-content-bg: $o-view-background-color !default;
+$modal-backdrop-bg: $o-white !default;
